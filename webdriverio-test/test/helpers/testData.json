@@ -1,0 +1,27 @@
+{
+  "fromStation":[
+    "Liverpool Central"
+  ],
+  "toStation":[
+    "London Bridge"
+  ],
+
+  "ticketCategory":[
+    "anytime",
+    "advance",
+    "offpeak"
+  ],
+  "ticketType":[
+    "standard",
+    "first"
+  ],
+
+  "emails":[
+    "guest.address@gmail.com"
+  ],
+
+  "payType":[
+    "card",
+    "web"
+  ]
+}

@@ -1,4 +1,4 @@
-const selectorsS = require('../helpers/selectors.searchPage')
+const selectorsS = require('../helpers/selectors/selectors.searchPage')
 
 module.exports = {
 
@@ -7,7 +7,6 @@ module.exports = {
         browser.keys('Enter')
         selectorsS.setToStation(to)
         browser.keys('Enter')
-        browser.keys('Tab')
         selectorsS.expandForm()
         if (oneWay === true) {
             selectorsS.setOneWay()

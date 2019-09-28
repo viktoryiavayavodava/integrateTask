@@ -69,12 +69,20 @@ module.exports = {
       }
   },
 
-  getPrice(price) {
-      return price.substring(1)
+   get priceSummary() {
+      return $('.cjs_price span.price')
   },
 
-  get priceSummary() {
-      return $('.cjs_price span.price')
-  }
+  get continueBtn () {
+      return $('input[value="Continue"][type="submit"]')
+  },
 
+  clickContinueBtn (){
+      this.continueBtn.click()
+
+  },
+
+  get summaryBox () {
+  return $('#summary')
+  }
 }
