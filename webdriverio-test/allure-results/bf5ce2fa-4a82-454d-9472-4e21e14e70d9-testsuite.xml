@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1569688199952' stop='1569688256408'>
+    <name>Test suite to verify Buy tickets functionality - Scenario1 e2e</name>
+    <title>Test suite to verify Buy tickets functionality - Scenario1 e2e</title>
+    <test-cases>
+        <test-case start='1569688199953' status='failed' stop='1569688256404'>
+            <name>should go through one-way ticket purchase flow</name>
+            <title>should go through one-way ticket purchase flow</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1569688201063' status='passed' stop='1569688213520'>
+                    <name>"before each" hook</name>
+                    <title>"before each" hook</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>'' == '91.60'</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: '' == '91.60'
+                    at Context.it (D:\projects\virgin-task\webdriverio-test\test\specs\buyTickets\scenarioOne.spec.js:70:16)
+                    at Context.executeSync (D:\projects\virgin-task\webdriverio-test\node_modules\@wdio\sync\build\index.js:57:18)
+                    at D:\projects\virgin-task\webdriverio-test\node_modules\@wdio\sync\build\index.js:143:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
