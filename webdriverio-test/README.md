@@ -10,4 +10,5 @@ SETUP TESTING ENVIROMENT
 navigate to webdriver-io folder (`cd .\webdriverio-test\`)
 run command `npm run test`
 
-3. TEST REPORT?
+3. TEST REPORT
+the results will be awailable in ./allure-results folder
